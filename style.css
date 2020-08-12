@@ -1,5 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
+    background-color: black;
     overflow: hidden;
   }
   
@@ -9,18 +10,20 @@
     display: block;
     text-align: center;
     padding: 14px 16px;
+    text-decoration-color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.5em;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #dbe1fa;
+    background-color:white;
+    text-decoration-color: blanchedalmond;
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #b3c1ff;
+    text-decoration-color: blanchedalmond;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
