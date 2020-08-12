@@ -29,3 +29,8 @@
   .topnav .icon {
     display: none;
   }
+
+  .responsiveImage {
+    width: 100%;
+    height: auto;
+  }
