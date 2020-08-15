@@ -80,6 +80,11 @@ nav {
     text-decoration-style: none;
   }*/
   
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+
   /* Style the links inside the navigation bar */
   .topnavLinks a {
     float: left;
