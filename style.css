@@ -1,32 +1,110 @@
-/* Add a black background color to the top navigation */
-.topnav {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ /*below menu bar large image*/ 
+ .cover {
+  background-image: url(images/chocolate_coffee.jpg);
+  background-size: cover;
+  margin-top: auto;
+  height: calc(100vw * .40);
+  /*properties of flext contianer*/
+}
+#coverImageCaption{
+  color: white;
+  font-size: calc(100vw*.05);
+  font-style: italic;
+  text-align: left;
+  display: block;
+  padding-top: 20%;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+  position: relative;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+
+
+  font-size: 50px;  /* Preferred icon size 
+  line-height: auto;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;*/
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  
+}
+
+nav {
+  position: fixed;
+  background-color: black;
+  color: white;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  top: 0rem;
+}
+
+
+/* Add a black background color to the top navigation and make list style none*/
+.topnavLinks {
     background-color: black;
     overflow: hidden;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 400px;
+    text-decoration-style: none;
   }
+  /*#navItem{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 30px;
+    text-decoration-style: none;
+  }*/
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .topnavLinks a {
     float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    text-decoration-style: none;
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .topnavLinks a:hover {
     background-color:white;
     color: blanchedalmond;
   }
   
   /* Add an active class to highlight the current page */
-  .topnav a.active {
+  .topnavLinks a.active {
     color: blanchedalmond;
+    text-decoration-style: underline;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
+  .topnavLinks .icon {
     display: none;
   }
 

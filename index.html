@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <base href="/LandingPage/">
+    <title>Chocolate Coffee Co.</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
 <body>
 <header>
-    <div class="topnav" id="myTopnav">
-        <img class="logo" src="/images/Efere_logo.png" style="display: block; margin: auto;">
-        <a href="#about" class = "active"> About</a>
-        <a href="#products">Products</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <div>
-        <img src="/images/nature.jpg" alt="CoffeeBerry" class="responsiveImage">
-    </div>
+    <div class="flexBox">
+        <nav>
+            <a href="#"> <span class="material-icons">free_breakfast</span></a>
+            <ul class="topnavLinks" id="myTopnav">
+                <li class="navitem" class = "active"><a href="#">About</a></li>
+                <li class="navitem"><a href="#">Products</a></li>
+                <li class="navitem"><a href="#">Contact</a></li>
+                <li id="orderNow"><button id="topButton" type="button"><a class="linkText" href="#">order now</a></li>
+                </button>
+            </ul>
+        </nav>
+
 </header>
+<div>
+    <div class=cover>
+        <h1 id = coverImageCaption>
+            An enhanced <br> chocolate experience
+        </h1>
+    </div>
+</div>
+
+<footer>
+    Footer Links here
+</footer>
 
 
 </body>
